@@ -112,16 +112,6 @@ export default function BookingModal({businessId,hideModal}) {
         />
       </View>
 
-      {/* Note Section  */}
-      <View style={{paddingTop:20}}>
-        <Heading text={'Any Suggestion Note'} />
-        <TextInput placeholder='Note' 
-        numberOfLines={4} multiline={true}
-        style={styles.noteTextArea} 
-        onChange={(e)=>setNote(e.target.value)}
-        />
-      </View>
-
       {/* confirmation Button  */}
       <TouchableOpacity style={{marginTop:15}}
       onPress={()=>createNewBooking()}>
