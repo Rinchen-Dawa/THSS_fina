@@ -62,6 +62,8 @@ export default function ProfileScreen() {
             fontSize: 30,
             fontFamily: "outfit-bold",
             color: Colors.WHITE,
+            marginLeft: "auto",
+            marginRight: "auto",
           }}
         >
           Profile
@@ -101,7 +103,7 @@ export default function ProfileScreen() {
         </View>
       </View>
 
-      <View style={{ paddingTop: 60 }}>
+      <View style={{ paddingTop: 60, marginLeft: "auto", marginRight: "auto" }}>
         <FlatList
           data={profileMenu}
           keyExtractor={(item) => item.id.toString()}

@@ -20,7 +20,7 @@ export default function BusinessList() {
     });
   };
   return (
-    <View style={{ marginTop: 20 }}>
+    <View style={{ marginTop: "7%" }}>
       <Heading text={"Latest Business"} isViewAll={false} />
 
       <FlatList
