@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b7894ec6-18c3-4c78-8d1c-a010c822a4d0"
+      }
+    },
+    "owner": "rinchendawa",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b7894ec6-18c3-4c78-8d1c-a010c822a4d0"
     }
   }
 }
